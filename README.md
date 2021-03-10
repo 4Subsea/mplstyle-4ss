@@ -3,22 +3,18 @@
 Official 4Subsea colors in Python - Matplotlib.
 
 ## How to use it?
-First, download the files or clone the repository to a local folder, e.g. `~/mplstyle_4ss`.
-
-In Python:
-
 ```
 import matplotlib.pyplot as plt
 
 
 # Default style - suitable for notebooks and reports
-plt.style.use("~/mplstyle_4ss/4subsea.mplstyle")
+plt.style.use("https://github.com/4Subsea/mplstyle-4ss/blob/main/4subsea.mplstyle?raw=True")
 
 # Presentation style - suitable for notebooks and reports
-plt.style.use("~/mplstyle_4ss/4subsea_presentation.mplstyle")
+plt.style.use("https://github.com/4Subsea/mplstyle-4ss/blob/main/4subsea_presentation.mplstyle?raw=True")
 
 # Presentation style w/more colors- suitable for notebooks and reports
-plt.style.use("~/mplstyle_4ss/4subsea_presentation_additional_colors.mplstyle")
+plt.style.use("https://github.com/4Subsea/mplstyle-4ss/blob/main/4subsea_presentation_additional_colors.mplstyle?raw=True")
 ```
 
 After applying the style, your `matplotlib` plots will have the 4Subsea colors :)
