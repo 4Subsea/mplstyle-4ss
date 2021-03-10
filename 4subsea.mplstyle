@@ -1,0 +1,37 @@
+# 4SUBSEA Matplotlib style - default
+
+### FONT
+font.family : sans-serif
+font.sans-serif : Trebuchet MS, Arial, sans-serif
+font.size : 10.0
+
+### AXES
+axes.grid : True
+axes.titlesize : large
+axes.labelsize : medium
+axes.formatter.limits : -4, 4
+axes.formatter.use_mathtext : True
+axes.formatter.useoffset : False
+axes.prop_cycle : cycler('marker', [None, 'o', 'D', 's', '^']) * cycler('linestyle', ['-', '--', '-.', ':']) * cycler('color', ['012b5d', 'faa634', '00a0b0', 'ed174f', '716fb3'])                                            # color cycle for plot lines
+                                            
+### LINES
+lines.linewidth : 1.5
+lines.markersize : 6
+
+### GRIDS
+grid.alpha : 0.50
+
+### Legend
+legend.loc : upper right
+legend.frameon : True
+legend.framealpha : 0.8
+legend.facecolor : inherit
+legend.edgecolor : 1.0
+legend.numpoints     : 1
+legend.scatterpoints : 1
+legend.fontsize      : medium
+
+### FIGURE
+figure.titlesize : x-large
+figure.titleweight : normal
+figure.figsize   : 8.27, 5.83   # A5 landscape
