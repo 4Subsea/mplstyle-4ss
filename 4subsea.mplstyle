@@ -12,7 +12,7 @@ axes.labelsize : medium
 axes.formatter.limits : -4, 4
 axes.formatter.use_mathtext : True
 axes.formatter.useoffset : False
-axes.prop_cycle : cycler('marker', ['', 'o', 'D', 's', '^']) * cycler('linestyle', ['-', '--', '-.', ':']) * cycler('color', ['012b5d', 'faa634', '00a0b0', 'ed174f', '716fb3'])                                            # color cycle for plot lines
+axes.prop_cycle : cycler('marker', ['none', 'o', 'D', 's', '^']) * cycler('linestyle', ['-', '--', '-.', ':']) * cycler('color', ['012b5d', 'faa634', '00a0b0', 'ed174f', '716fb3'])                                            # color cycle for plot lines
                                             
 ### LINES
 lines.linewidth : 1.5
